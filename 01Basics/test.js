@@ -1,0 +1,1 @@
+console.log("My name is sakshi singh and I'm belong from mirzapur are u ready to go outside for further studies sry to say bt for the first and last time i feel like I don't want to go abroad for the further studies ");
