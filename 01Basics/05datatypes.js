@@ -29,3 +29,31 @@ let myObj = {
 const myFunction = function(){
     console.log("welcome to the strange world");
 }
+
+
+
+// stack (Primitive)   ,Jo bhi variable declare kiya uska ek copy milta h esme 
+// Heap(Non-primitive), Yaha se hame referance milta h jo bhi aap change karenge original value me change hoga 
+
+let myYoutubename = "sakshidotcom"
+
+console.log(myYoutubename);
+let anothername = myYoutubename
+ anothername = "gudiyadotcom"
+ console.log(anothername);
+
+
+ let userone = {
+    email:"sakshi@gmail.com",
+    age: 22,
+    name:"sakshi singh",
+    place:"mirzapur",
+    college:"MJPRU"
+
+ }
+ let userTwo = userone;
+ console.table([userone,userTwo]);
+
+userTwo.email = "gudiya@gmail.com"
+console.log(userone.email);
+console.log(userTwo.email);
