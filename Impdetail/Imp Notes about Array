@@ -1,0 +1,17 @@
+Array is written in brackets[]
+Array data type is an object.
+Array can contain different types of data type i.e string , number, boolean ,array etc
+Array is zero based indexing it starts with zero 
+Once changed its original value will also change because it is not primitive (reference) type
+
+
+Array Methods-
+Push = adds value to last of an array
+Pop = remove last value of an array 
+unshift = add value to its first position of an array
+shift = remove the value from the first position of an array 
+includes = check for true or false
+IndexOf = checks the position of the value given or asked for
+Join = change the type to string
+slice = 
+splice = 

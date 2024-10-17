@@ -1,3 +1,13 @@
 /* keep these two websites in mind for further reference and the website is 
 mdn and tc39 
 */
+
+/*
+Math.round();
+Math.ceil();
+Math.floor();
+
+when we have to find the random in between min and max 
+console.log(Math.floor(Math.random()*(max-min)) +min);
+
+*/
