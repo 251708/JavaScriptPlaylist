@@ -1,0 +1,5 @@
+The Document Object Model(DOM) is a programming interface for web documents.
+Programs can change the document structure ,style and content
+Represent the document as nodes and objects ; that way programming language can interact with the page
+DOM is not part of the JavaScript language, but is instead a Web API used to build websites. 
+DOM was designed to be independent of any particular programming language , making the structural representation of the document available from a single, consistent API.  
