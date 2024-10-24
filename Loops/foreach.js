@@ -50,10 +50,36 @@ const myNums = [1,2,3,4,5,6,7,8,9,10]
   console.log(userbook);
   */
 
-  // Another method is without return 
+  /* Another method is without return 
    let userbook = books.filter( (bk) =>  bk.genre === 'History')
  //console.log(userbook);
  userbook = books.filter((bk) => {
      return bk.publish >= 1985 
  })
  console.log(userbook);
+ */
+
+ /*const myNumbers = [1,2,3,4,5,6,7,8,9,10]
+ const newNums =  myNumbers.map((num) => num + 10)
+console.log(newNums);
+*/
+/* the code that is written below always returns undefined there is a proper for that will discuss later 
+const myNumbers = [1,2,3,4,5,6,7,8,9,10]
+ const num = myNumbers.forEach((item) => 
+    { return item +10
+      
+    } )
+console.log(num);
+*/
+/*------------------------------------------------------------------------------------------------------------------------------------------
+Main difference between .foreach() and .map() is that 
+.foreach() is used to execute a function on each array element bt does not return a new array or any value
+.map() is used to transform each element of an array and returns a new array with the result of the transformation.
+*/
+
+
+const myNumbers = [1,2,3,4,5,6,7,8,9,10]
+const newNums = myNumbers.map( ( num) => num * 10)
+                         .map((num )  => num + 1) 
+                         .filter((num) => num >= 40 )
+console.log(newNums);
