@@ -19,3 +19,9 @@ pollution ko htane ke liye hmne IIFE ka use kiya h
 ((vegetables) => {
     console.log(`Food is made up of ${vegetables}`)
 })('green');
+
+
+
+
+
+

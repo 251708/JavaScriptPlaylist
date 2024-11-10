@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        document.getElementById('owl').onclick = function()) {
+           alert("owl clicked") 
+        }
+           */
+        document.getElementById('owl').addEventListener('click' , function(e) {
+            alert("owl clicked again")
+        } ,false )
+
+
+//attachEvent()
+//jQuent - on
+// type, timestamp , defaultPrevented 
+// target, toElement , srcElement , currentTarget,
+// clientX , clientY, screenX , screenY
+// altkey , ctrlkey , shiftkey , keyCode 
+
+
+/*document.querySelector('#images').addEventListener
+('click' , function(e){
+console.log(e.target.parentNode);
+
+let removeIt = e.target.parentNode
+removeIt.remove()
+
+})
+// removeIt.parentNode.removeChild(removeIt)
+*/
+
+document.querySelector('#images').addEventListener('click' , function(e) {
+    console.log(e.target.tagName);
+    if(e.target.tagName === 'IMG'){
+        console.log(e.target.id);
+        let removeIt = e.target.parentNode
+        removeIt.remove();
+    }
+})
+
+
+        </script>
+</body>
+</html>
+
+
+/*
+Event Propogation
+EventBubbling ---- niche se upar jata h like a bubble 
+false is default case 
+
+EventBubbling se prevent krne ke liye hm  
+e.stopPropogation() use kr skte h 
+
+eventCapturing --- top se down jata h 
+true is used for this 
+
+preventDefault is a method by which we can prevent the default nature of anything 
