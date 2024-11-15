@@ -14,7 +14,18 @@ console.log(user.getUserDetails());
 
 const userOne = user("sakshi" , 14, true)
 const userTwo = user ("SakshiaurJavaScript" , 13 , false)
-console.log(userOne);
+console.log(user.getUserDetails);
+console.log()
+
+function multipleBy5(num){
+    return num*5
+}
+// just for the enjoyment purpose you cann't do these things 
+//  
+
+multipleBy5.power = 2 
+console.log(multipleBy5.power);
+console.log(multipleBy5.)
 
 
 
