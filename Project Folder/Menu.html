@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+  
+    
+    <button id="Menu">Menu Button </button>
+    <table id="new-table">
+     <tr>
+        <th>Sun</th>
+        <th>Mon</th>
+     </tr>
+     <tr>
+        <th>Tue</th>
+        <th>Wed</th>
+     </tr>
+     <tr>
+        <th>Thu</th>
+        <th>Fri</th>
+     </tr>
+    </table>
+
+    
+    <script>
+        const toggleButton = document.getElementById('Menu')
+        const toggleTable = document.getElementById('new-table')
+
+        toggleButton.addEventListener('click' ,(event) => {
+        toggleTable.style.display = 'block';
+        
+        })
+
+        document.addEventListener('click', (event) => {
+            const isClickOnButton = toggleButton.contains(event.target);
+             const isClickInsideTable = toggleTable.contains(event.target)
+           if(!isClickOnButton && !isClickInsideTable){
+           toggleTable.style.display = 'none';
+             }
+        })
+        
+
+       
+
+
+
+
+
+
+    </script>
+</body>
+</html>

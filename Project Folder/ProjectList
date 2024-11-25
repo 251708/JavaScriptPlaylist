@@ -1,0 +1,100 @@
+1. Click Counter
+Description: A button that increments a counter every time it is clicked.
+Events Used: click
+What to Learn: Basic click event handling and DOM manipulation.
+
+2. Toggle Visibility
+Description: Toggle the visibility of an element (e.g., a paragraph or div) when a button is clicked.
+Events Used: click
+What to Learn: Style manipulation using JavaScript.
+
+3. Real-Time Input Preview
+Description: Display the live value of a text input field in another element as the user types.
+Events Used: input or keyup
+What to Learn: Accessing input values and updating the DOM in real time.
+
+4. Light/Dark Mode Toggle
+Description: Switch between light and dark themes when a button is clicked.
+Events Used: click
+What to Learn: Adding/removing classes or changing CSS styles dynamically.
+
+5. Dropdown Menu
+Description: Show and hide a dropdown menu when the user clicks on a button.
+Events Used: click
+What to Learn: Event delegation and conditional styling.
+
+6. Modal Popup
+Description: Display a modal popup when a button is clicked and hide it when clicking outside the modal or on a close button.
+Events Used: click
+What to Learn: Event delegation, contains method, and conditional logic.
+
+7. Form Validation
+Description: Validate form fields (e.g., email, password) on submission and display error messages if the input is invalid.
+Events Used: submit
+What to Learn: Preventing default behaviors and validating user input.
+
+8. Key Press Tracker
+Description: Detect and display the key pressed by the user.
+Events Used: keydown or keyup
+What to Learn: Keyboard event handling.
+
+9. Drag-and-Drop Box
+Description: Allow users to drag items and drop them into a specific container.
+Events Used: dragstart, dragover, drop
+What to Learn: Drag-and-drop API.
+
+10. Image Slider/Carousel
+Description: Create a simple image slider where users can navigate through images using "Next" and "Previous" buttons.
+Events Used: click
+What to Learn: DOM manipulation and working with arrays.
+
+11. Interactive To-Do List
+Description: Add, edit, and delete tasks in a to-do list. Mark tasks as complete by clicking on them.
+Events Used: click, input
+What to Learn: Event delegation and dynamically handling DOM elements.
+
+12. Countdown Timer
+Description: Create a countdown timer that updates every second and stops when it reaches zero.
+Events Used: click (to start/reset)
+What to Learn: setInterval, event handling, and DOM updates.
+
+13. Hover Effects
+Description: Change the background color or display additional information when hovering over an element.
+Events Used: mouseover, mouseout
+What to Learn: Event handling for hover states.
+
+14. Expandable FAQ Section
+Description: Clicking on a question reveals the answer, and clicking again hides it.
+Events Used: click
+What to Learn: Toggling classes and DOM interaction.
+
+15. Stop/Start Animation
+Description: Start and stop an animation (e.g., a moving div) using buttons.
+Events Used: click
+What to Learn: Controlling animations with event listeners.
+
+16. Random Quote Generator
+Description: Display a random quote when a button is clicked.
+Events Used: click
+What to Learn: Fetching random data and updating the DOM.
+
+17. Voting System
+Description: Increment and display upvotes or downvotes when respective buttons are clicked.
+Events Used: click
+What to Learn: Event handling for multiple buttons and updating UI.
+
+18. Custom Context Menu
+Description: Show a custom context menu when right-clicking on a specific element.
+Events Used: contextmenu, click
+What to Learn: Preventing default actions and creating custom UI elements.
+
+19. Scroll-to-Top Button
+Description: A button appears when the user scrolls down the page and clicking it scrolls the page back to the top.
+Events Used: scroll, click
+What to Learn: Handling scroll events and animating scroll behavior.
+
+20. Color Picker
+Description: Change the background color of the page when the user selects a color.
+Events Used: change
+What to Learn: Handling input changes and style updates.
+These projects are great starting points to get hands-on experience with event listeners and JavaScript DOM manipulation.

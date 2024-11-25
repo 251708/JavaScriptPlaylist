@@ -12,3 +12,26 @@ The difference between innerText and textContent is that innerText shows only th
 this content is only shown by textContent not by the innerText 
 innerHTML -----
 In innerHTML it returns all things including HTML content also this is the difference between these three
+
+
+
+Difference between Html Collection and NodeList ------------------
+Feature           	HTMLCollection	                                       NodeList
+What it Contains  -	Only elements (HTML tags)	                     -   Nodes, which can be elements, text, or comments
+Live or Static	-Live: Updates automatically when the DOM changes     .	Static: Does not update with DOM changes (unless otherwise specified).
+Indexing	-Accessible by index (like an array) and item() methodm    .	Accessible by index (like an array) and item() method.
+Array Methods	-Does not support forEach(), map(), etc., directly     .	Some NodeLists support forEach(); modern NodeLists are iterable.
+Access via Property--	Can be accessed using names of attributes (collection['id'])   .	Cannot be accessed by attribute names.
+
+Methods that returns HTML collection are-
+getElementsByClassName
+getElementsByTagName
+forms
+images
+links
+
+Methods that returns NodeList are-
+querySelectorAll
+querySelector
+childNOdes
+
